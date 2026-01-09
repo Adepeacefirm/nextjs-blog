@@ -9,12 +9,9 @@ const Header = () => {
     <div className="p-5 md:px-12 lg:px-28">
       <div className="flex justify-between items-center">
         <Link href={"/"}>
-          <Image
-            src={logo}
-            width={180}
-            alt="logo"
-            className="w-32.5 sm:w-auto cursor-pointer"
-          />
+          <p className="text-xl font-bold bg-gradient-to-r from-slate-500 to-gray-800 bg-clip-text text-transparent">
+            BouncyBlog
+          </p>
         </Link>
         <button className="flex items-center gap-2 font-medium py-2 px-3 sm:px-6 border border-solid border-black shadow-[-7px_7px_0px_#000000]">
           Get Started <Image src={arrow} alt="arrow" />

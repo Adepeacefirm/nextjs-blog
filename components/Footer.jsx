@@ -8,9 +8,11 @@ import googleplus_icon from "@/public/googleplus_icon.png";
 const Footer = () => {
   return (
     <div className="bg-black py-5 items-center flex sm:flex-row justify-around flex-col gap-2 sm:gap-0">
-      <Image src={logo_light} width={120} alt="logo light" />
+      <p className="text-xl font-bold bg-gradient-to-r from-blue-500 to-purple-800 bg-clip-text text-transparent">
+        BouncyBlog
+      </p>
       <p className="text-sm text-white">
-        All rights reserved. Copyright @blogger
+        All rights reserved. Copyright @BouncyBlog
       </p>
       <div className="flex">
         <Image src={facebook_icon} width={40} alt="facebook icon" />
